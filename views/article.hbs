@@ -8,3 +8,17 @@
   </li>
 </ul>
 
+<ul>
+    {{#each ratings}}
+        <li id="{{rating_pk}}" class="rating">
+                <h3>{{author}}</h3>
+                <p>{{message}}</p>
+                <p>
+                    {{rate}} Stars
+                </p>
+                <p>{{appreciates}} finden hilfreich</p>
+                <p>{{date_rated}}</p>
+        </li>
+    {{/each}}
+</ul>
+
