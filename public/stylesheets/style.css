@@ -1,0 +1,25 @@
+body {
+  font-family: SansSerif, sans-serif;
+}
+
+.article-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-list .article {
+  border: 1px solid #ddd;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px #aaa;
+}
+
+.article-list .article-teaser {
+
+}
+
+.article-list .article-price {
+  font-weight: bold;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,12 @@
+<h1>The chocolate shop</h1>
+<ul class="article-list">
+    {{#each articles}}
+        <li id="{{article_pk}}" class="article">
+            <h3 class="article-title">{{caption}}</h3>
+            <p class="article-teaser">{{teaser}}</p>
+            <p class="article-price">
+                {{price}} EUR
+            </p>
+        </li>
+    {{/each}}
+</ul>
