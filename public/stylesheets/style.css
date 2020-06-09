@@ -7,6 +7,18 @@ body {
   padding: 0;
 }
 
+.article-list a {
+  text-decoration: none;
+}
+
+.article-list a:visited {
+  color: inherit;
+}
+
+.article-list a:hover {
+  color: brown;
+}
+
 .article-list .article {
   border: 1px solid #ddd;
   padding: 2rem;
